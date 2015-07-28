@@ -1,0 +1,76 @@
+daniel@danielbourkeubu01:~/pythonApps/WEX$ time python dictTree.py
+Dictionary Used: 5000words.txt
+Added 4990 words into the Transitional Dictionary (skipped 28 )
+
+Preliminary Tests to ensure checks are working
+
+String: hellothisisamessagethatiamtestingthis Valid!
+String: hellothisisamessagethatiamtestingthise Not english
+String: qwwertyuiopasdfghjklzzxcvbnmqweryuiopf Not english
+String: weiucuwebiqligaflewfioubualncywalveurw Not english
+String: urphwaecneyaeyrevigssissitecierkenered Not english
+String: vigeneredecipherkeyissecurityawareness Valid!
+String: name Valid!
+String: reurenevigyawaissecisseyerkrednephitec Not english
+
+Running search for solutions...
+(looking for a solution with at most 9 words)
+
+Found 100 solutions:
+The top 10 solutions are as follows:
+
+
+String: VIGENEREDECIPHERKEYISSECURITYAWARENESS
+Minimum Word Count: 6
+Word breakdown:
+['vigenere', 'decipher', 'key', 'is', 'security', 'awareness']
+
+String: ISSECURITYAWARENESSVIGENEREDECIPHERKEY
+Minimum Word Count: 6
+Word breakdown:
+['is', 'security', 'awareness', 'vigenere', 'decipher', 'key']
+
+String: VIGENEREDECIPHERKEYISSURECITYAWARENESS
+Minimum Word Count: 7
+Word breakdown:
+['vigenere', 'decipher', 'key', 'is', 'sure', 'city', 'awareness']
+
+String: ISSURECITYAWARENESSVIGENEREDECIPHERKEY
+Minimum Word Count: 7
+Word breakdown:
+['is', 'sure', 'city', 'awareness', 'vigenere', 'decipher', 'key']
+
+String: REVIGENEREDECIPHERKEYISSECURITYASSNEWA
+Minimum Word Count: 9
+Word breakdown:
+['re', 'vigenere', 'decipher', 'key', 'is', 'security', 'ass', 'new', 'a']
+
+String: REVIGENEREDECIPHERKEYISSECURITYANEWASS
+Minimum Word Count: 9
+Word breakdown:
+['re', 'vigenere', 'decipher', 'key', 'is', 'security', 'a', 'new', 'ass']
+
+String: REVIGENEREDECIPHERKEYNEWAISSECURITYASS
+Minimum Word Count: 9
+Word breakdown:
+['re', 'vigenere', 'decipher', 'key', 'new', 'a', 'is', 'security', 'ass']
+
+String: REVIGENEREDECIPHERKEYNEWASSISSECURITYA
+Minimum Word Count: 9
+Word breakdown:
+['re', 'vigenere', 'decipher', 'key', 'new', 'ass', 'is', 'security', 'a']
+
+String: REISSECURITYAVIGENEREDECIPHERKEYNEWASS
+Minimum Word Count: 9
+Word breakdown:
+['re', 'is', 'security', 'a', 'vigenere', 'decipher', 'key', 'new', 'ass']
+
+String: REISSECURITYASSVIGENEREDECIPHERKEYNEWA
+Minimum Word Count: 9
+Word breakdown:
+['re', 'is', 'security', 'ass', 'vigenere', 'decipher', 'key', 'new', 'a']
+
+real	0m19.683s
+user	0m15.838s
+sys	0m0.016s
+

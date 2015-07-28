@@ -1,0 +1,88 @@
+daniel@danielbourkeubu01:~/pythonApps/WEX$ python dictTree.py
+Dictionary Used: corncob_lowercase.txt
+Added 58112 words into the Transitional Dictionary (skipped 1 )
+
+Preliminary Tests to ensure checks are working
+
+String: hellothisisamessagethatiamtestingthis Valid!
+String: hellothisisamessagethatiamtestingthise Not english
+String: qwwertyuiopasdfghjklzzxcvbnmqweryuiopf Not english
+String: weiucuwebiqligaflewfioubualncywalveurw Not english
+String: urphwaecneyaeyrevigssissitecierkenered Not english
+String: vigeneredecipherkeyissecurityawareness Valid!
+String: name Valid!
+String: reurenevigyawaissecisseyerkrednephitec Not english
+
+Running search for solutions...
+(looking for a solution with at most 7 solutions)
+
+Found 13 solutions:
+The top 10 solutions are as follows:
+
+
+String: VIGENEREDECIPHERKEYISSECURITYAWARENESS
+Minimum Word Count: 6
+Word breakdown:
+['vigenere', 'decipher', 'key', 'is', 'security', 'awareness']
+
+String: ISSECURITYAWARENESSVIGENEREDECIPHERKEY
+Minimum Word Count: 6
+Word breakdown:
+['is', 'security', 'awareness', 'vigenere', 'decipher', 'key']
+
+String: VIGENEREWANESSISSECURITYAREDECIPHERKEY
+Minimum Word Count: 7
+Word breakdown:
+['vigenere', 'wanes', 'sis', 'security', 'a', 're', 'decipher', 'key']
+['vigenere', 'wanes', 'sis', 'security', 'are', 'decipher', 'key']
+
+String: VIGENEREDECIPHERKEYWANESSISSECURITYARE
+Minimum Word Count: 7
+Word breakdown:
+['vigenere', 'decipher', 'key', 'wanes', 'sis', 'security', 'a', 're']
+['vigenere', 'decipher', 'key', 'wanes', 'sis', 'security', 'are']
+
+String: VIGENEREDECIPHERKEYISSURECITYAWARENESS
+Minimum Word Count: 7
+Word breakdown:
+['vigenere', 'decipher', 'key', 'is', 'sure', 'city', 'awareness']
+
+String: VIGENEREDECIPHERKEYSSISSECURITYAREWANE
+Minimum Word Count: 7
+Word breakdown:
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'a', 're', 'wane']
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'are', 'wane']
+
+String: VIGENEREDECIPHERKEYSSISSECURITYAWARENE
+Minimum Word Count: 7
+Word breakdown:
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'a', 'ware', 'ne']
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'aware', 'ne']
+
+String: VIGENEREDECIPHERKEYSSISSECURITYANEWARE
+Minimum Word Count: 7
+Word breakdown:
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'a', 'ne', 'ware']
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'a', 'new', 'a', 're']
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'a', 'new', 'are']
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'anew', 'a', 're']
+['vigenere', 'decipher', 'keys', 'sis', 'security', 'anew', 'are']
+
+String: WANEVIGENEREDECIPHERKEYSSISSECURITYARE
+Minimum Word Count: 7
+Word breakdown:
+['wane', 'vigenere', 'decipher', 'keys', 'sis', 'security', 'a', 're']
+['wane', 'vigenere', 'decipher', 'keys', 'sis', 'security', 'are']
+
+String: WANESSISSECURITYAREVIGENEREDECIPHERKEY
+Minimum Word Count: 7
+Word breakdown:
+['wanes', 'sis', 'security', 'a', 're', 'vigenere', 'decipher', 'key']
+['wanes', 'sis', 'security', 'a', 'rev', 'i', 'gen', 'ere', 'decipher', 'key']
+['wanes', 'sis', 'security', 'a', 'rev', 'i', 'gene', 're', 'decipher', 'key']
+['wanes', 'sis', 'security', 'are', 'vigenere', 'decipher', 'key']
+
+real	21m45.782s
+user	18m24.887s
+sys	0m0.236s
+
