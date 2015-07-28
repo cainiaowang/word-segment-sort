@@ -1,11 +1,12 @@
-This program is an attempt to solve the following puzzle.
+##This program is an attempt to solve the following puzzle.
 
+### Description
 Take a sentence, strip the spaces, unify the case, cut the sentence up into segments that are of either length 2 or 3, finally shuffle these segments
 
 The puzzle is thus to attempt to rearange these segments, such that they form the original sentence.
 
 
-Example:
+### Example:
 
 ======================== Setup work ======================== 
 
