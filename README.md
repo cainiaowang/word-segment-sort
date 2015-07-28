@@ -20,6 +20,7 @@ Stripped of spaces, cut up into segments, and then suffled becomes:
 
 
 ======================== Main Puzzle ======================== 
+
 The following are the solutions that have been found by 
 the algorithm dictTree.py
 
